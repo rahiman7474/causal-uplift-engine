@@ -1,0 +1,100 @@
+{
+  "max_smd": 0.0126,
+  "all_balanced": true,
+  "overlap_report": {
+    "positivity_satisfied": true,
+    "propensity_mean": 0.6693,
+    "treatment_prop_range": [
+      0.6502,
+      0.6812
+    ],
+    "control_prop_range": [
+      0.6438,
+      0.6812
+    ],
+    "overlap_window": [
+      0.6502,
+      0.6812
+    ],
+    "extreme_propensity_pct": 0.0
+  },
+  "covariates_smd": [
+    {
+      "feature": "newbie",
+      "mean_treatment": 0.5007,
+      "mean_control": 0.4944,
+      "smd": 0.0126,
+      "status": "Balanced"
+    },
+    {
+      "feature": "mens",
+      "mean_treatment": 0.7512,
+      "mean_control": 0.7542,
+      "smd": 0.0069,
+      "status": "Balanced"
+    },
+    {
+      "feature": "history",
+      "mean_treatment": 166.9573,
+      "mean_control": 167.9054,
+      "smd": 0.0061,
+      "status": "Balanced"
+    },
+    {
+      "feature": "zip_code_Rural",
+      "mean_treatment": 0.1519,
+      "mean_control": 0.1499,
+      "smd": 0.0056,
+      "status": "Balanced"
+    },
+    {
+      "feature": "channel_Multichannel",
+      "mean_treatment": 0.1201,
+      "mean_control": 0.122,
+      "smd": 0.0056,
+      "status": "Balanced"
+    },
+    {
+      "feature": "channel_Web",
+      "mean_treatment": 0.4382,
+      "mean_control": 0.4362,
+      "smd": 0.0039,
+      "status": "Balanced"
+    },
+    {
+      "feature": "womens",
+      "mean_treatment": 0.5499,
+      "mean_control": 0.5491,
+      "smd": 0.0017,
+      "status": "Balanced"
+    },
+    {
+      "feature": "zip_code_Urban",
+      "mean_treatment": 0.4006,
+      "mean_control": 0.3998,
+      "smd": 0.0017,
+      "status": "Balanced"
+    },
+    {
+      "feature": "channel_Phone",
+      "mean_treatment": 0.4417,
+      "mean_control": 0.4418,
+      "smd": 0.0002,
+      "status": "Balanced"
+    },
+    {
+      "feature": "recency",
+      "mean_treatment": 6.5105,
+      "mean_control": 6.5105,
+      "smd": 0.0,
+      "status": "Balanced"
+    },
+    {
+      "feature": "zip_code_Surburban",
+      "mean_treatment": 0.0,
+      "mean_control": 0.0,
+      "smd": 0.0,
+      "status": "Balanced"
+    }
+  ]
+}

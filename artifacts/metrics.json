@@ -1,0 +1,77 @@
+{
+  "model_metrics": {
+    "DML": {
+      "qini_score": 154.8711,
+      "normalized_qini": 0.4041,
+      "mean_uplift": 0.010675,
+      "std_uplift": 0.004932,
+      "min_uplift": -0.108371,
+      "max_uplift": 0.054293
+    },
+    "XLearner": {
+      "qini_score": 140.2323,
+      "normalized_qini": 0.3804,
+      "mean_uplift": 0.010668,
+      "std_uplift": 0.002734,
+      "min_uplift": -0.007067,
+      "max_uplift": 0.027637
+    },
+    "TLearner": {
+      "qini_score": 153.1304,
+      "normalized_qini": 0.4014,
+      "mean_uplift": 0.010672,
+      "std_uplift": 0.004672,
+      "min_uplift": -0.026378,
+      "max_uplift": 0.045964
+    },
+    "SLearner": {
+      "qini_score": 71.3153,
+      "normalized_qini": 0.238,
+      "mean_uplift": 0.008982,
+      "std_uplift": 0.003092,
+      "min_uplift": -0.016283,
+      "max_uplift": 0.027338
+    }
+  },
+  "best_model": "DML",
+  "placebo_refutation": {
+    "test_name": "Placebo Treatment Refutation",
+    "original_ate": 0.010686,
+    "mean_placebo_ate": 0.000564,
+    "placebo_simulations": [
+      0.001395,
+      0.00192,
+      0.00052,
+      0.000197,
+      -0.001211
+    ],
+    "refutation_passed": true,
+    "z_score": 9.38,
+    "conclusion": "PASSED: Estimated effect collapses towards zero when treatment is randomized."
+  },
+  "noise_refutation": {
+    "test_name": "Random Common Cause Refutation",
+    "original_ate": 0.010686,
+    "noisy_ate": 0.010689,
+    "drift_pct": 0.03,
+    "refutation_passed": true,
+    "conclusion": "PASSED: Effect drift with noise covariate is 0.03% (< 10%)."
+  },
+  "roi_summary": {
+    "unit_cost": 0.15,
+    "conversion_value": 35.0,
+    "optimal_threshold_tau": 0.004302,
+    "total_population": 64000,
+    "targeted_customers": 61170,
+    "targeted_fraction": 0.9558,
+    "expected_incremental_conversions": 687.6,
+    "campaign_cost": 9175.5,
+    "gross_revenue": 24066.47,
+    "net_profit": 14890.97,
+    "roi_pct": 162.29,
+    "blanket_profit": 14310.89,
+    "blanket_roi": 149.07,
+    "profit_lift_vs_blanket": 580.08,
+    "budget_saved": 424.5
+  }
+}
