@@ -1,7 +1,7 @@
 # Causal Uplift Engine
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://causal-uplift-engine.streamlit.app)
-[![CI](https://github.com/your-username/causal-uplift-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/causal-uplift-engine/actions)
+[![CI](https://github.com/rahiman7474/causal-uplift-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/rahiman7474/causal-uplift-engine/actions)
 [![Python 3.11 | 3.12](https://img.shields.io/badge/python-3.11%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -124,7 +124,7 @@ Productionizing causal machine learning requires vigilant monitoring against thr
 Clone the repository, install dependencies, and launch the interactive Streamlit dashboard:
 
 ```bash
-git clone https://github.com/your-username/causal-uplift-engine.git && cd causal-uplift-engine
+git clone https://github.com/rahiman7474/causal-uplift-engine.git && cd causal-uplift-engine
 pip install -r requirements.txt
 streamlit run app.py
 ```
